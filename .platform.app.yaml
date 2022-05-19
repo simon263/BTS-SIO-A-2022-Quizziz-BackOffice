@@ -52,7 +52,7 @@ hooks:
 
 relationships:
 
-   database: "db:mariadb"
+   database: "db:mariadb:10.4"
 
 
 
@@ -111,4 +111,4 @@ source:
 
       command: |
 
-                curl -fsS https://raw.githubusercontent.com/platformsh/source-operations/main/setup.sh | { bash /dev/fd/3 sop-autoupdate; } 3<&0
+            curl -fsS https://raw.githubusercontent.com/platformsh/source-operations/main/setup.sh | { bash /dev/fd/3 sop-autoupdate; } 3<&0
