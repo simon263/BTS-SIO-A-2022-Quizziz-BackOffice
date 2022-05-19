@@ -50,9 +50,8 @@ hooks:
 
 # side is in the form `<service name>:<endpoint name>`.
 
-relationship:
-    
-    database: "db:mariadb"
+relationships:
+    database: "mariadb:user"
 
 
 
