@@ -4,10 +4,4 @@
     type: upstream
     upstream: "home:http"
 
-
-
-"https://www.quiz/":
-    type: redirect
-    to: "https://quiz/"
-
  
