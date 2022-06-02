@@ -1,17 +1,13 @@
 # Each route describes how an incoming URL is going to be processed by Platform.sh.
 
 "https://www.quiz.com/":
-
     type: upstream
-
     upstream: "home:http"
 
 
 
 "https://www.quiz/":
-
     type: redirect
-
     to: "https://quiz/"
 
  
