@@ -33,6 +33,7 @@ hooks:
     build: |
 
         set -e
+        cp .env-exemple .env
 
 
 
@@ -93,8 +94,8 @@ web:
         "/":
 
             # The public directory of the app, relative to its root.
-
-            root: "web"
+            #c'est pour la sécurité (var env)
+            root: "public"
 
             # The front-controller script to send non-static requests to.
 
